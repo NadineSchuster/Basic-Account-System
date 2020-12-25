@@ -1,4 +1,4 @@
-# basic-account-system
+# Basic-Account-System
 Just a basic authentication system
 
 In process :D
