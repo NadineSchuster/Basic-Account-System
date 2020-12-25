@@ -1,0 +1,29 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header {
+    background: yellow;
+    width: 100vw;
+    height: 20vh;
+}
+
+main section {
+    display: flex;
+    flex-flow: row;
+    height: 80vh;
+}
+
+.news {
+    background: violet;
+    height: 100%;
+    width: 50%;
+}
+
+.highscore {
+    background: pink;
+    height: 100%;
+    width: 50%;
+}

@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <meta name="robots" content="index, follow" />
+    <!-- <meta name="description" content="content" /> -->
+    <link rel="icon" href="./icons/dw.svg" />
+    <link rel="stylesheet" type="text/css" href="./styles/style.css" />
+    <title>Titel</title>
+</head>
+
+<body>
+    <section>
+        <header>
+            <h2>hi</h2>
+        </header>
+    </section>
+
+    <main>
+        <h1>Registration</h1>
+        <form id="registration-form">
+            <input type="text" id="username" placeholder="User Name">
+            <input type="password" id="password" placeholder="Passwort">
+            <button id="submit-btn">Submit</button>
+        </form>
+
+        <div>
+            <h1>Login</h1>
+            <form id="login-form">
+                <input type="text" id="username-login" placeholder="User Name">
+                <input type="password" id="password-login" placeholder="Passwort">
+                <button id="login-btn">Login</button>
+            </form>
+        </div>
+
+        <button class="getPost">getPost</button>
+
+
+        <!-- <section>
+            <div class="news">
+                <div class="newsHeader"></div>
+                <div class="newsList"></div>
+            </div>
+
+            <div class="highscore">
+                <div class="highscoreHeader"></div>
+                <div class="highscoreList"></div>
+            </div>
+        </section> -->
+    </main>
+
+    <script src="socket.io/socket.io.js"></script>
+    <script type="module" src="app.js" defer></script>
+</body>
+
+</html>
