@@ -8,6 +8,7 @@ const http = require("http");
 const cors = require('cors');
 require("dotenv").config();
 
+
 // Middleware
 server.use(express.static("public"));
 server.use(cors());
@@ -23,6 +24,9 @@ let io = socketIo(httpServer);
 const authRoute = require("./routes/auth");
 const { nextTick } = require("process");
 server.use('/users', authRoute);
+
+
+server.use('/main', require("./routes/dashboard"));
 
 
 let posts = [{
